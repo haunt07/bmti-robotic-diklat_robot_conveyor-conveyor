@@ -9,9 +9,9 @@ void setup(){
 
 void loop(){
     Serial.println("Conveyor on");
-    conve.On();
+    conve.on();
     delay(5000);
     Serial.println("Conveyor off");
-    conve.Off();
+    conve.off();
     delay(5000);
 }

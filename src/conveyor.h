@@ -7,7 +7,7 @@ class Conveyor{
 
     public:
     void begin(uint8_t pinConveyor);
-    void On();
-    void Off();
+    void on();
+    void off();
 };
 #endif

@@ -2,13 +2,13 @@
 void Conveyor::begin(uint8_t pinConveyor){
     this->pinConveyor = pinConveyor;
     pinMode(this->pinConveyor, OUTPUT);
-    Off();
+    off();
 }
 
-void Conveyor::On(){
+void Conveyor::on(){
     digitalWrite(pinConveyor, LOW);
 }
 
-void Conveyor::Off(){
+void Conveyor::off(){
     digitalWrite(pinConveyor, HIGH);
 }
