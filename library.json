@@ -1,0 +1,20 @@
+{
+  "name": "conveyor",
+  "version": "0.1.0",
+  "description": "Arduino library for controlling conveyor motors",
+  "keywords": [
+    "conveyor",
+    "motor",
+    "automation",
+    "education",
+    "arduino"
+  ],
+  "frameworks": ["arduino"],
+  "platforms": "*",
+  "authors": [
+    {
+      "name": "Fachri Ilman Fauzandi",
+      "maintainer": true
+    }
+  ]
+}
