@@ -1,4 +1,4 @@
-#include <robot_conveyor.h>
+#include <conveyor.h>
 
 Conveyor conve;
 void setup(){
